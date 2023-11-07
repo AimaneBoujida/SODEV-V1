@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SODEV</title>
+    <meta
+      name="description"
+      content="SODEV une entreprise dynamique tournée vers
+    l'avenir, nous nous adaptons en permanence au paysage changeant de
+    l'ère numérique."
+    />
+    <meta property="og:title" content="Sodev" />
+    <meta
+      property="og:description"
+      content="SODEV une entreprise dynamique tournée vers
+      l'avenir"
+    />
+    <meta property="og:image" content="assets/imgs/LOGO-black.png" />
+    <meta property="og:url" content="https://sodevtherealworld.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sodev" />
+    <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="header__logo">
+          <img src="assets/imgs/LOGO-black.png" alt="sodev-logo" />
+          <div><span>SODEV</span> <span>the real world</span></div>
+        </a>
+        <ul>
+            <li>
+                <a href="#hero"><i class="fa-solid fa-house"></i>accueil</a>
+            </li>
+            <li>
+                <a href="#services"><i class="fa-solid fa-briefcase"></i>services</a>
+            </li>
+            <li>
+                <a href="#steps"><i class="fa-solid fa-pen-nib"></i>processus</a>
+            </li>
+            <li>
+                <a href="#contact"><i class="fa-solid fa-phone"></i>contact</a>
+            </li>
+        </ul>
+        <div class="languages">
+            <span class="languages__selector">
+                <a class="langphone"><i class="fa-solid fa-globe"></i><p>Lang</p></a>
+            </span>
+            <div class="languages__list">
+                <a href="index.html">
+                    <img class="languages__icon"
+                         src="assets/imgs/languages/fr.png"
+                         alt="fr" />
+                    <span>Francais</span>
+                </a>
+                <a href="index-en.html">
+                    <img class="languages__icon"
+                         src="assets/imgs/languages/en.png"
+                         alt="en" />
+                    <span>anglais</span>
+                </a>
+                <a href="index-ar.html">
+                    <img class="languages__icon"
+                         src="assets/imgs/languages/ar.png"
+                         alt="ar" />
+                    <span>arabe</span>
+                </a>
+                <a href="index-nl.html">
+                    <img class="languages__icon"
+                         src="assets/imgs/languages/nl.png"
+                         alt="nl" />
+                    <span>néerlandaise</span>
+                </a>
+                <a href="index-de.html">
+                    <img class="languages__icon"
+                         src="assets/imgs/languages/de.png"
+                         alt="de" />
+                    <span>allemande</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="close__button">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </div>
+        <div class="show__button">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero__section">
+        <div class="hero__text">
+          <!-- <div class="logo__container">
+            <img
+              class="logo"
+              src="assets/imgs/LOGO-black.svg"
+              alt="sodev-logo"
+            />
+            <span>creativity & services</span>
+          </div> -->
+
+          <!-- <h1>welcome to the real world</h1> -->
+          <h1>"LE SERVICE NUMÉRIQUE QUE VOUS DÉSIREZ"</h1>
+
+          <!-- <p>
+            Nous élaborons des stratégies efficaces pour vous aider à atteindre
+            les clients et les prospects sur l'ensemble du web.
+          </p> -->
+          <ul class="objectifs">
+            <!-- <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>transformation numérique
+            </li> -->
+            <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>software développement
+            </li>
+            <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>développement des
+              logiciels sur mesure
+            </li>
+            <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>développement
+              d'applications mobiles
+            </li>
+            <!-- <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>conseil en gestion des
+              projets
+            </li> -->
+            <!-- <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>e-commerce
+            </li> -->
+            <!-- <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>digitalisation des
+              entreprises
+            </li> -->
+            <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>Conseil en
+              digitalisation Des entreprises
+            </li>
+            <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>conception graphique
+            </li>
+            <li class="objectif">
+              <i class="fa-regular fa-square-check"></i>intelligence
+              artificielle
+            </li>
+          </ul>
+          <a href="https://wa.me/2120661104186?text=Bonjour, Je suis intéressée par votre services" role="button" class="button"
+           target="_blank" ><i class="fa fa-whatsapp" aria-hidden="true"></i>Comment pouvons-nous vous aider ?</a
+          >
+        </div>
+        <div class="hero__slider">
+          <div class="swiper hero__swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <img
+                class="swiper-slide"
+                src="assets/imgs/hero-sliders/slider1.jpg"
+                alt="slider1"
+              />
+              <img
+                class="swiper-slide"
+                src="assets/imgs/hero-sliders/slider2.jpg"
+                alt="slider2"
+              />
+              <img
+                class="swiper-slide"
+                src="assets/imgs/hero-sliders/slider3.jpg"
+                alt="slider3"
+              />
+              <img
+                class="swiper-slide"
+                src="assets/imgs/hero-sliders/slider4.jpg"
+                alt="slider4"
+              />
+              <img
+                class="swiper-slide"
+                src="assets/imgs/hero-sliders/slider5.jpg"
+                alt="slider5"
+              />
+              <img
+                class="swiper-slide"
+                src="assets/imgs/hero-sliders/slider6.jpg"
+                alt="slider6"
+              />
+              <img
+                class="swiper-slide"
+                src="assets/imgs/hero-sliders/slider7.jpg"
+                alt="slider7"
+              />
+            </div>
+            <div class="swiper-pagination"></div>
+            <div tabindex="1" class="hero__swiper-button-prev">
+              <i class="fa-solid fa-caret-left"></i>
+            </div>
+            <div tabindex="2" class="hero__swiper-button-next">
+              <i class="fa-solid fas fa-caret-right"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="section services__section">
+        <div class="section__heading">
+          <h1><i class="fa-solid fa-briefcase"></i>nos services</h1>
+          <h3>Qu'est-ce que nous offrons ?</h3>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="assets/imgs/services/app-development.jpg"
+              alt="Développement de logiciels"
+            />
+            <div class="card__text">
+              <h1 class="lang" key="services-logiciels-heading">
+                Développement de logiciels
+              </h1>
+              <p class="lang" key="content">
+                Nous concevons, créons et mettons en œuvre des solutions
+                logicielles personnalisées pour les applications web, mobiles et
+                de bureau.
+              </p>
+            </div>
+          </div>
+
+          <div class="card reverse">
+            <img
+              src="assets/imgs/services/mobile-dev.jpg"
+              alt="Développement des applications"
+            />
+            <div class="card__text">
+              <h1 class="lang" key="heading">Applications mobiles</h1>
+              <p class="lang" key="content">
+                Nous créons des applications mobiles pour iOS et Android,
+                destinées au grand public ou utilisées en interne par votre
+                organisation.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/imgs/services/landing-page.jpg"
+              alt="Développement de logiciels"
+            />
+            <div class="card__text">
+              <h1>Développement de sites web</h1>
+              <p>
+                Nous concevons et développons des sites web professionnels,
+                incluant des vitrines, des plateformes de commerce électronique,
+                des blogs et des portails d'entreprise.
+              </p>
+            </div>
+          </div>
+          <div class="card reverse">
+            <img
+              src="assets/imgs/services/ecommerce.jpg"
+              alt="Développement de logiciels"
+            />
+            <div class="card__text">
+              <h1>E-commerce</h1>
+              <p>
+                Nous concevons et développons des plateformes de commerce
+                électronique personnalisées, avec des fonctionnalités telles que
+                les paniers d'achat, les paiements en ligne sécurisés et la
+                gestion des stocks.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/imgs/services/crm.jpg"
+              alt="Développement de logiciels"
+            />
+            <div class="card__text">
+              <h1>Intégration de systèmes</h1>
+              <p>
+                Nous assurons l'intégration de différents systèmes logiciels,
+                tels que les CRM, les GRH et les systèmes de comptabilité, pour
+                une communication fluide et une synchronisation des données.
+              </p>
+            </div>
+          </div>
+          <div class="card reverse">
+            <img
+              src="assets/imgs/services/ui-design.jpg"
+              alt="Développement de logiciels"
+            />
+            <div class="card__text">
+              <h1>Conception UX/UI</h1>
+              <p>
+                Nous offrons également des services de conception d'expérience
+                utilisateur (UX) et d'interface utilisateur (UI), garantissant
+                des interfaces intuitives, esthétiques et conviviales pour vos
+                applications et sites web.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="steps" class="section steps__section">
+        <div class="steps__wave">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#000"
+              fill-opacity="1"
+              d="M0,224L120,192C240,160,480,96,720,101.3C960,107,1200,181,1320,218.7L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="section__wrapper">
+          <div class="section__heading">
+            <h1><i class="fa-solid fa-pen-nib"></i>Notre processus</h1>
+            <h3>Comment le processus se déroule-t-il ?</h3>
+          </div>
+          <div class="steps">
+            <div class="step__card">
+              <img
+                class="step__img"
+                src="assets/imgs/steps/consultation.jpg"
+                alt=""
+              />
+              <div class="step__heading">
+                <h3>Découverte et Consultation :</h3>
+                <ul class="step__text">
+                  <li>
+                    Nous entamons des discussions détaillées avec nos clients
+                    pour comprendre leurs objectifs, leurs exigences et leur
+                    vision.
+                  </li>
+                  <li>
+                    Nous réalisons une analyse approfondie de leur public cible,
+                    des tendances de l'industrie et de leurs concurrents.
+                  </li>
+                </ul>
+              </div>
+
+              <span class="step__number">1</span>
+            </div>
+            <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="step__card">
+              <img
+                class="step__img"
+                src="assets/imgs/steps/planning.jpg"
+                alt="planning"
+              />
+              <div class="step__heading">
+                <h3>Stratégie et Planification :</h3>
+                <ul class="step__text">
+                  <li>
+                    En nous basant sur les informations recueillies, nous
+                    élaborons une stratégie complète adaptée aux objectifs du
+                    client.
+                  </li>
+                  <li>
+                    Nous créons une feuille de route du projet, détaillant les
+                    étapes clés, les livrables et les délais.
+                  </li>
+                </ul>
+              </div>
+              <span class="step__number">2</span>
+            </div>
+            <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="step__card">
+              <img
+                class="step__img"
+                src="assets/imgs/steps/design.jpg"
+                alt="design"
+              />
+              <div class="step__heading">
+                <h3>Conception et Conceptualisation :</h3>
+                <ul class="step__text">
+                  <li>
+                    Nos talentueux designers collaborent étroitement avec le
+                    client pour créer des concepts de design attrayants et
+                    centrés sur l'utilisateur.
+                  </li>
+                  <li>
+                    Nous nous concentrons sur la création d'expériences
+                    utilisateur intuitives qui correspondent à l'identité de
+                    marque du client.
+                  </li>
+                </ul>
+              </div>
+              <span class="step__number">3</span>
+            </div>
+            <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="step__card">
+              <img
+                class="step__img"
+                src="assets/imgs/steps/development.jpg"
+                alt="development"
+              />
+              <div class="step__heading">
+                <h3>Développement et Mise en œuvre :</h3>
+                <ul class="step__text">
+                  <li>
+                    Nos développeurs qualifiés donnent vie aux concepts de
+                    design en utilisant les dernières technologies et les
+                    meilleures pratiques de l'industrie.
+                  </li>
+                  <li>
+                    Nous assurons une fonctionnalité fluide, une compatibilité
+                    mobile et une compatibilité avec tous les navigateurs.
+                  </li>
+                </ul>
+              </div>
+              <span class="step__number">4</span>
+            </div>
+            <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="step__card">
+              <img
+                class="step__img"
+                src="assets/imgs/steps/testing.jpg"
+                alt="testing"
+              />
+              <div class="step__heading">
+                <h3>Tests et Assurance Qualité :</h3>
+                <ul class="step__text">
+                  <li>
+                    Nous effectuons des tests rigoureux sur les solutions
+                    développées afin d'identifier et de résoudre tout
+                    dysfonctionnement, problème d'utilisabilité ou de
+                    performance.
+                  </li>
+                  <li>
+                    Des processus d'assurance qualité sont mis en œuvre pour
+                    garantir que le produit final répond aux normes les plus
+                    élevées.
+                  </li>
+                </ul>
+              </div>
+              <span class="step__number">5</span>
+            </div>
+            <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="step__card">
+              <img
+                class="step__img"
+                src="assets/imgs/steps/deployment.jpg"
+                alt="deployment"
+              />
+              <div class="step__heading">
+                <h3>Lancement et Déploiement :</h3>
+                <ul class="step__text">
+                  <li>
+                    Une fois que le client approuve le produit final, nous
+                    l'aidons à le déployer sur les plateformes ou serveurs
+                    souhaités.
+                  </li>
+                  <li>
+                    Nous assurons une transition fluide et fournissons toute
+                    formation ou support nécessaire pendant la phase de
+                    lancement.
+                  </li>
+                </ul>
+              </div>
+              <span class="step__number">6</span>
+            </div>
+            <div class="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="step__card">
+              <img
+                class="step__img"
+                src="assets/imgs/steps/maintenance.jpg"
+                alt="maintenance"
+              />
+              <div class="step__heading">
+                <h3>Assistance et Maintenance :</h3>
+                <ul class="step__text">
+                  <li>
+                    Notre engagement va au-delà du lancement. Nous offrons un
+                    support continu, une maintenance et des mises à jour pour
+                    assurer des performances optimales du produit.
+                  </li>
+                  <li>
+                    Nous surveillons les analyses et les retours des
+                    utilisateurs pour identifier les domaines d'amélioration et
+                    mettre en œuvre les améliorations nécessaires.
+                  </li>
+                </ul>
+              </div>
+              <span class="step__number">7</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section contact__section">
+        <div class="section__heading">
+          <h1><i class="fa-solid fa-phone"></i>CONTACTEZ-NOUS</h1>
+          <h3>Faites-nous savoir comment nous pouvons vous aider.</h3>
+        </div>
+
+        <div class="contact__wrapper">
+          <div class="contact__box">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Envoyez-nous un e-mail</h3>
+            <p>Communiquez avec notre équipe bienveillante.</p>
+            <a href="mailto:admin@sodevtherealworld.com"
+              >admin@sodevtherealworld.com</a
+            >
+          </div>
+          <div class="contact__box">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Visitez-nous</h3>
+            <p>Visitez notre bureau pour discuter.</p>
+            <a
+              href="https://www.google.com/maps/place/35%C2%B046'16.6%22N+5%C2%B048'01.6%22W/@35.7712863,-5.8026203,17z/data=!3m1!4b1!4m4!3m3!8m2!3d35.7712863!4d-5.8004316?entry=ttu"
+              target="_blank"
+            >
+              12 AV Driss 1<sup>er</sup>, immeuble Tanger Office Centre, 2<sup
+                >ème</sup
+              >
+              étage n°18, Tanger
+            </a>
+          </div>
+          <div class="contact__box">
+            <i class="fa-solid fa-phone"></i>
+            <h3>Appelez-nous</h3>
+            <p>Contactez-nous pour découvrir nos offres.</p>
+            <a href="https://wa.me/2120661104186" target="_blank"
+              >(+212) 06 61 10 41 86</a
+            >
+            <a href="tel:0539323528" target="_blank"
+            >(+212) 05 39 32 3528</a
+          >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="wave__container">
+        <svg
+          width="100%"
+          height="100%"
+          id="svg"
+          viewBox="0 0 1440 390"
+          xmlns="http://www.w3.org/2000/svg"
+          class="transition duration-300 ease-in-out delay-150"
+        >
+          <path
+            d="M 0,400 C 0,400 0,200 0,200 C 115.35714285714289,169 230.71428571428578,138 335,128 C 439.2857142857142,118 532.4999999999998,129.00000000000003 674,157 C 815.5000000000002,184.99999999999997 1005.2857142857144,230 1141,240 C 1276.7142857142856,250 1358.3571428571427,225 1440,200 C 1440,200 1440,400 1440,400 Z"
+            stroke="none"
+            stroke-width="0"
+            fill="#000000"
+            fill-opacity="1"
+            class="transition-all duration-300 ease-in-out delay-150 path-0"
+          ></path>
+        </svg>
+      </div>
+      <div class="footer__wrapper">
+        <div class="footer__section-one">
+          <img
+            class="logo__white"
+            src="assets/imgs/LOGO-white.svg"
+            alt="Sodev Logo"
+          />
+          <p>
+            <strong>SODEV</strong> une entreprise dynamique tournée vers
+            l'avenir, nous nous adaptons en permanence au paysage changeant de
+            l'ère numérique.
+          </p>
+          <span class="space"></span>
+          <ul>
+            <a href="#hero"><li>accueil</li></a>
+            <a href="#services"><li>services</li></a>
+            <a href="#steps"><li>processus</li></a>
+            <a href="#contact"><li>contact</li></a>
+          </ul>
+        </div>
+        <div class="footer__section-two">
+          <div class="address">
+            <div class="adress__mail">
+              <i class="fa-solid fa-envelope"></i>
+              <span>admin@sodevtherealworld.com</span>
+            </div>
+            <div class="adress__ad">
+              <i class="fa-solid fa-location-dot"></i
+              ><span
+                >12 AV driss 1<sup>er</sup> immeuble tanger office centre 2<sup
+                  >ème</sup
+                >
+                étage n°18 tanger</span
+              >
+            </div>
+            <div class="adress__phone">
+              <i class="fa-solid fa-phone"></i>
+              <span>06 61 10 41 86 / 05 39 32 35</span> 28
+            </div>
+          </div>
+          <div class="social-media__links">
+            <a target="_blank" href="https://facebook.com/sodevtherealworld/"
+              ><i class="fa-brands fa-facebook"></i
+              ><span class="tooltip">facebook</span></a
+            >
+            <a target="_blank" href="https://instagram.com/sodevtherealworld/"
+              ><i class="fa-brands fa-instagram"></i
+              ><span class="tooltip">instagram</span></a
+            >
+            <a target="_blank" href="https://www.twitter.com"
+              ><i class="fa-brands fa-x-twitter"></i
+              ><span class="tooltip">twitter</span></a
+            >
+            <a target="_blank" href="https://wa.me/2120661104186"
+              ><i class="fa-brands fa-whatsapp"></i
+              ><span class="tooltip">whatsapp</span></a
+            >
+          </div>
+        </div>
+        <div class="dev__team">
+          <span class="copyrights"
+            >droits d'auteur ©<span class="copyrights__date">2023</span></span
+          >
+          <span class="tag">Réalisé par l'équipe <strong>SODEV</strong></span>
+        </div>
+      </div>
+    </footer>
+    <div id="loader">
+      <div class="loader-icon">
+        <img
+          class="loader__logo"
+          src="assets/imgs/logo-loader.png"
+          alt="sodev logo"
+        />
+        <p>SODEV ...</p>
+      </div>
+    </div>
+    <div class="to__top">
+      <a href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </body>
+  <!--========== Fontawesome ==========-->
+  <script
+    src="https://kit.fontawesome.com/1d3b35f3ec.js"
+    crossorigin="anonymous"
+  ></script>
+  <!--========== Swiper ==========-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!--========== Main Js ==========-->
+  <script src="assets/javascript/script.js"></script>
+</html>
